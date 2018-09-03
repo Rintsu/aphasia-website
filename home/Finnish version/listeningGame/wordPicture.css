@@ -1,0 +1,56 @@
+#options {
+  width: 600;
+  height: 400;
+  margin: 0 auto;
+  padding-left: 45px;
+}
+#options div{
+  display: inline;
+  width: 100px;
+  height: 100px;
+}
+
+#options img {
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  border: 5px solid;
+}
+
+#options div:hover {
+  opacity: 0.5;
+}
+
+#container {
+  width: 750px;
+  margin: 0 auto;
+}
+
+#controls button {
+  margin: 1.5em;
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+#controls {
+  width: 800px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-left: 220px;
+}
+
+#controls button:hover {
+  background: #82ce83;
+}
+.results {
+  border-radius: 15px;
+}
+
+#result {
+  width: 280px;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 3em;
+  text-align: center;
+}

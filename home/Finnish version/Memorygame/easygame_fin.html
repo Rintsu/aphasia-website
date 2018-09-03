@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Helppo Muistipeli </title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="../style.css">
+  <link href="easygame_fin.css" type="text/css" rel="stylesheet">
+
+
+</head>
+<body onload="init()">
+  <!-- <div class="logo">
+  <a href="..\index.html"><img id="logo" src="Images/logo.png"></a> -->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-5">
+        <a id="circle" href="../memory.html"><span>&#8592;</span></a>
+        <p style="font-size:35px; text-align:left">Takaisin</p>
+      </div>
+
+      <div class="col-sm-7">
+        <a href="../index.html"><img id="logo" src="../logo.png" class="center" alt="Therapy For You" style="width:90px; height:120px; margin-left:40px" align="left"></a>
+      </div>
+
+    </div>
+  </div>
+
+
+  <h1> Helppo Muistipeli </h1>
+<!-- </div> -->
+
+<div class="button">
+  <button onclick="reload()">Pelaa Uudestaan</button>
+  <a href="mediumgame_fin.html" type="button" id="nextlevel"> Seuraavalle Tasolle </a>
+</div>
+
+  <br>
+
+  <table class="picture">
+  <tr>
+    <td><img  class="1" onclick="choose(0)"></td>
+    <td><img  class="1" onclick="choose(1)"></td>
+    <td><img  class="1" onclick="choose(2)"></td>
+  </tr>
+    <td><img   class="1" onclick="choose(3)"></td>
+    <td><img   class="1" onclick="choose(4)"></td>
+    <td><img   class="1" onclick="choose(5)"></td>
+  </tr>
+</table>
+
+<p id="win"></p>
+<p id="lose"></p>
+
+
+
+
+<script src="easygame_fin.js">
+
+</script>
+
+</body>
+</html>
