@@ -1,4 +1,3 @@
 # aphasia-website
-School project
-We made a website with easy rehalibilation games for aphasia patients.
-On display only my games.
+This was a school project where we made a website with easy rehalibilation games for aphasia patients.
+Only my games on display here.
